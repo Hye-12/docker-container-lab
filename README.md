@@ -1,2 +1,13 @@
-# docker-container-lab
-Rocky Linux 9 환경에서 Docker 설치, 이미지 관리, Apache 웹 서버 컨테이너 생성 및 포트 매핑 실습
+### 1. Docker 개요
+
+```markdown
+# Docker 개요
+
+Docker는 애플리케이션과 실행 환경을 하나의 이미지(Image)로 패키징하여 어디서든 동일한 환경에서 실행할 수 있도록 지원하는 컨테이너 기반 가상화 플랫폼이다.
+
+가상머신(VM)과 달리 호스트 운영체제의 커널을 공유하므로 가볍고 빠르게 실행되며, 개발·테스트·운영 환경의 일관성을 유지할 수 있다.
+
+본 실습에서는 Rocky Linux 9 환경에서 Docker를 설치하고, Apache HTTP Server(httpd) 컨테이너를 생성하여 Docker의 기본 동작 원리와 컨테이너 관리 방법을 학습하였다.
+```
+
+---
